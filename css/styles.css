@@ -49,6 +49,8 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
+  padding :20px;
+  align-items: center;
 }
 .boton-jugada {
   background-color: #3498db;
@@ -56,8 +58,13 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  
 }
+ .boton-jugada:hover{
+    background-color: palevioletred;
+  }
+
 #resultados {
-  font-size: 20px;
+  font-size: 25px;
   margin: 20px 0;
 }
